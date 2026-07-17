@@ -1,0 +1,138 @@
+html{
+    /* background-color: rgb(0, 140, 196); */
+    background-image: linear-gradient(to top, rgb(247, 174, 174), rgb(0, 183, 255));
+}
+/*
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+*/
+p{
+    justify-content: center;
+    width: 50%;
+}
+.container-header{
+    background-color: rgb(163, 172, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    font-family: "Caveat Brush", cursive;
+}
+.container-nav{
+    background-color: rgb(163, 172, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    margin-top: 10px;
+    height: auto;
+    padding: 10px;
+}
+.middle-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.container-section{
+    background-color: rgb(163, 172, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    margin-top: 10px;
+    border: solid;
+
+}
+/* .container-aside{
+    background-color: rgb(163, 172, 44);
+    display: flex;
+    height: 300px;
+    width: 25%;
+    margin-top: 10px;
+    border: solid;
+    margin-left: 10px;
+} */
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+    padding: 5px;
+}
+/* section.image{
+    justify-content: center;
+} */
+footer{
+    display: flex;
+    background-color: rgb(163, 172, 44);
+    justify-content: center;
+    margin-top: 10px;
+    border: solid;
+    padding: 10px;
+}
+img{
+    height: 100px;
+    /* float: center; */
+    padding: 5px;
+}
+aside{
+    width: 200px;
+
+    padding: 5px;
+}
+ul{
+    clear: both;
+}
+ol{
+    clear: both;
+}
+form{
+    float: right;
+    background-color: rgb(240, 248, 255);
+    display: table;
+}
+.form-cell{
+    display: table-row;
+}
+label, input{
+    display: table-cell;
+}
+form > div{
+    margin: 10px;
+}
+.container-form{
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+.container-aside{
+    justify-content: center;
+}
+table{
+    width: 100%;
+    text-align-last: center;
+    background-color: aliceblue;
+}
+nav > a:hover{
+    color: black;
+    font-weight: bold;
+}
+#student-union{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+#pikes-peak{
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+.information{
+    font-family: Arial, Helvetica, sans-serif;
+}
